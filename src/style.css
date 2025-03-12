@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 136, 255);
+}
+
+.textcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0.7vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    border: 0.2vw solid rgba(255, 255, 255, 1);
+    text-align: center;
+    color: white;
+    font-family: 'Open sans';
+    width: 40%;
+
+}
+
+@font-face {
+    font-family: 'Open sans';
+    src: url("/src/Open Sans/OpenSans-Regular.ttf"); 
+}
