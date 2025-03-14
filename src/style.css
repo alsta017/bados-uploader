@@ -9,7 +9,7 @@ body{
 }
 
 
-.container,.textcontainer{
+.container{
     background: rgba(255, 255, 255, 0.5);
     border-radius: 0.7vw;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,11 @@ body{
 
 }
 
+.nødelwalk420{
+    font-family: 'Open sans';
+}
+
 @font-face {
     font-family: 'Open sans';
-    src: url("/src/Open Sans/OpenSans-Regular.ttf"); 
+    src: url("/src/Fonts/Open sans/OpenSans-Regular.ttf"); 
 }
